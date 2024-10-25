@@ -7,6 +7,7 @@ function App() {
         <div className="app-container">
           <Routes>
               <Route path='/' element={<h1>Dashboard</h1>} />
+              <Route path='/auth' element={<h1>SignIn</h1>} />
           </Routes>
         </div>
       </Router>
